@@ -25,7 +25,7 @@ SECRET_KEY = 'w-04rxdvasglq(c(e$(hm(etp-n5hfqfuc-klzd4q64p1ncq=b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1","yikimbilgitopla.pythonanywhere.com"]
 
 
 # Application definition
@@ -126,4 +126,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
+    'home/yikimbilgitopla/static',
 ]
