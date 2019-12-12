@@ -126,5 +126,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    'home/yikimbilgitopla/static',
+    '/home/yikimbilgitopla/yikimbilgitopla.pythonanywhere.com/static/',
 ]
